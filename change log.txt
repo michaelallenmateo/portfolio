@@ -1,0 +1,1 @@
+may-1-2018: updated portfolio to include a timeline. Previous html portfolio section and css portfolio section are just commented out.

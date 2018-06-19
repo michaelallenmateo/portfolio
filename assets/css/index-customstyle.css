@@ -42,7 +42,7 @@ p a.btn.btn-primary.btn-lg {
 /*training*/
 
 .training {
-	height: 300px;
+	height: auto;
 	background-color: #FBFCFC;
 }
 
@@ -76,7 +76,7 @@ p a.btn.btn-primary.btn-lg {
 /*skills and knowledge*/
 
 .skill-container {
-	height: 350px;
+	height: auto;
 	background-color: #E5E7E9;
 }
 
@@ -171,6 +171,11 @@ p a.btn.btn-primary.btn-lg {
 	
 }
 
+div.skill-4 img.db {
+	width: 80px;
+	height: 50px;
+}
+
 .header-2{
 	margin-top: 20px;
 	font-family: 'Chathura', sans-serif;
@@ -230,7 +235,7 @@ p a.btn.btn-primary.btn-lg {
 .portfolio-container {
 	background-color: #FBFCFC;
 	padding-top: 0;
-	height: 800px;
+	height: auto;
 	padding-bottom: 100px;
 }
 
@@ -249,7 +254,7 @@ p a.btn.btn-primary.btn-lg {
 }
 
 .thumbnail {
-	height: 450px;
+	height: 530px;
 	width: 400px;
 }
 
@@ -277,14 +282,20 @@ p a.btn.btn-primary.btn-lg {
 	padding-bottom: 40px; 
 }	
 
+div.profilepic {
+	width: auto;
+	text-align: center;
+}
+
 .about img {
 	border: 2px solid grey;
 	border-radius: 50%;
 	height: 140px;
 	width: 140px;
-	position: absolute;
-	bottom: 400px;
-	right: 45%;
+	position: relative;
+	bottom: 80px;
+
+	/*right: 45%;*/
 }
 
 .about-me {
@@ -294,7 +305,7 @@ p a.btn.btn-primary.btn-lg {
 
 .about-me h2 {
 	margin-top: 0;
-	padding-top: 150px;
+	padding-top: 20px;
 	margin-bottom: 15px;
 	font-family: 'Mitr', sans-serif;
 	width: auto;
