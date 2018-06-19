@@ -1,5 +1,8 @@
 html {
 	background-color: #F7F9F9;
+	width: auto;
+	/*max-width: 100%;*/
+	/*overflow-x: hidden;*/
 }
 .jumbotron {
 	height: 400px;
@@ -19,7 +22,7 @@ html {
 .jumbotron .container {
 	width: auto;
 	margin-top: 80px;
-	margin-left: 190px;
+	/*margin-left: 190px;*/
 }
 
 p a.btn.btn-primary.btn-lg {
@@ -77,6 +80,7 @@ p a.btn.btn-primary.btn-lg {
 
 .skill-container {
 	height: auto;
+	width: auto;
 	background-color: #E5E7E9;
 }
 
@@ -236,7 +240,14 @@ div.skill-4 img.db {
 	background-color: #FBFCFC;
 	padding-top: 0;
 	height: auto;
+overflow: hidden;
+/*max-width: 100%;*/
 	padding-bottom: 100px;
+	text-align: center;
+}
+
+.col-sm-12.col-md-12 {
+	align-content: center;
 }
 
 .portfolio-container h2 {
@@ -251,16 +262,21 @@ div.skill-4 img.db {
 .row {
 	margin-right: 0;
 	margin-left: 0;
+	width: auto;
 }
 
 .thumbnail {
-	height: 530px;
-	width: 400px;
+	height: 10%;
+	width: 50%;
 }
 
 .thumbnail img {
-	width: 380px;
-	height: 250px;
+	width: 100%;
+	height: auto;
+}
+
+.caption {
+	height:50%; 
 }
 
 .caption h3 {
@@ -271,6 +287,14 @@ div.skill-4 img.db {
 .caption p {
 	font-size: 17px;
 	font-family: 'News Cycle', sans-serif;
+}
+
+.port-1, .port-3 {
+	margin-left: 27%;
+}
+
+.port-2, .port-4 {
+	margin-left: 27%;
 }
 
 /*about me and education*/
@@ -409,6 +433,74 @@ div.profilepic {
 .row2 img {
 	height: 50px;
 	width: 55px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+.thumbnail {
+	height: auto;
+	width: auto;
+}
+
+
+.portfolio-container {
+	
+overflow: visible;
+margin: auto 0;
+
+}
+
+
+
+.port-1, .port-3 {
+	margin: 0;
+}
+
+.port-2, .port-4 {
+	margin: 0;
+}
+
+.skill-container {
+	height: 1024px!important;
+}
+
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+.thumbnail {
+	height: auto;
+	width: auto;
+}
+
+
+.portfolio-container {
+	
+overflow: visible;
+margin: auto 0;
+
+}
+
+
+
+.port-1, .port-3 {
+	margin: 0;
+}
+
+.port-2, .port-4 {
+	margin: 0;
+}
+
+.skill-container {
+	height: 600px;
+}
+
+
 }
 
 
