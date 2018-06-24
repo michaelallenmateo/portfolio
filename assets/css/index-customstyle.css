@@ -80,7 +80,7 @@ p a.btn.btn-primary.btn-lg {
 /*skills and knowledge*/
 
 .skill-container {
-	height: 580px!important;
+	height: 650px!important;
 	width: auto;
 	background-color: #E5E7E9;
 }
@@ -440,7 +440,7 @@ div.profilepic {
 
 
 
-@media screen and (max-width: 480px) /*and (max-device-width: 960px)*/{
+@media screen and (min-device-width: 320px) and (max-device-width: 720px){
 
 .thumbnail {
 	height: auto;
@@ -498,7 +498,21 @@ margin: auto 0;
 }
 
 
-@media screen and (device-width:768px) {
+/*@media screen and (min-device-width: 721px) and (max-device-width: 959px){
+	.skill-container {
+	height: 550px!important;
+	display: block;
+	}
+
+	.portfolio-container .col-sm-12 {
+		float: none;
+		width: auto;
+		margin: auto 0;
+	}
+}*/	
+
+
+@media screen and (min-device-width: 721px) and (max-device-width:960px) {
 
 .thumbnail {
 	height: auto;
